@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LG</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>LG</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#inicio">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#grid">Grids</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#card">Cards</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="container-fluid">
+        <div id="inicio" class="container">
+            <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div data-bs-interval="2000" class="carousel-item active">
+                        <img class="d-block w-100" src="img/girl.jpg">
+                    </div>
+                    <div data-bs-interval="2000" class="carousel-item">
+                        <img class="d-block w-100" src="img/mad.jpg">
+                    </div>
+                    <div data-bs-interval="2000" class="carousel-item">
+                        <img class="d-block w-100" src="img/chuva.jpg">
+                    </div>
+                </div>
+    
+                <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+        
+                <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" class="active" data-bs-target="#carousel-exemplo" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+    
+            <section id="grid">
+                <h2>GRIDS</h2>
+                <div class="row my-5">
+                    <div class="col-lg-3 mx-lg-4 col-md-5 col-sm-10">
+                        <img src="https://via.placeholder.com/334x334">
+                        <h3 class="my-3">Descrição do grid</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim aliquid, ut voluptas velit libero vero earum! Quaerat earum repellat consequatur, aliquam voluptas ab dicta vero, inventore delectus quis, quisquam asperiores.</p>
+                    </div>
+                    <div class="col-lg-3 offset-lg-1 col-md-5 offset-md-1">
+                        <img src="https://via.placeholder.com/334x334">
+                        <h3 class="my-3">Descrição do grid</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim aliquid, ut voluptas velit libero vero earum! Quaerat earum repellat consequatur, aliquam voluptas ab dicta vero, inventore delectus quis, quisquam asperiores.</p>
+                    </div>
+                    <div class="col-lg-3 offset-lg-1 my-lg-0 col-md-5 my-md-3">
+                        <img src="https://via.placeholder.com/334x334">
+                        <h3 class="my-3">Descrição do grid</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim aliquid, ut voluptas velit libero vero earum! Quaerat earum repellat consequatur, aliquam voluptas ab dicta vero, inventore delectus quis, quisquam asperiores.</p>
+                    </div>
+                </div>
+            </section>
+    
+            <section id="card">
+                <h2>CARDS</h2>
+                <div class="row my-5">
+                    <div class="col-lg-3 mx-lg-4 col-md-5 ">
+                        <article class="card">
+                            <img src="https://via.placeholder.com/334x390">
+                            <div class="card-body">
+                                <h3 class="card-title">Título do card</h3>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum qui facilis rerum, laudantium, ducimus modi consectetur quas ullam quo earum aspernatur repellat quasi cupiditate minus voluptate! Consectetur nemo quibusdam id!Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum qui facilis rerum, laudantium, ducimus modi consectetur quas ullam quo earum aspernatur repellat quasi cupiditate minus voluptate! Consectetur nemo quibusdam id!
+                                </p>
+                                <a href="#" class="btn">Leia mais</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-lg-3 offset-lg-1 col-md-5 offset-md-1">
+                        <article class="card">
+                            <img src="https://via.placeholder.com/334x390">
+                            <div class="card-body">
+                                <h3 class="card-title">Título do card</h3>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum qui facilis rerum, laudantium, ducimus modi consectetur quas ullam quo earum aspernatur repellat quasi cupiditate minus voluptate! Consectetur nemo quibusdam id!Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum qui facilis rerum, laudantium, ducimus modi consectetur quas ullam quo earum aspernatur repellat quasi cupiditate minus voluptate! Consectetur nemo quibusdam id!
+                                </p>
+                                <a href="#" class="btn">Leia mais</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-lg-3 my-lg-0 offset-lg-1 col-md-5 my-md-3">
+                        <article class="card">
+                            <img src="https://via.placeholder.com/334x390">
+                            <div class="card-body">
+                                <h3 class="card-title">Título do card</h3>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum qui facilis rerum, laudantium, ducimus modi consectetur quas ullam quo earum aspernatur repellat quasi cupiditate minus voluptate! Consectetur nemo quibusdam id!Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum qui facilis rerum, laudantium, ducimus modi consectetur quas ullam quo earum aspernatur repellat quasi cupiditate minus voluptate! Consectetur nemo quibusdam id!
+                                </p>
+                                <a href="#" class="btn">Leia mais</a>
+                            </div>
+                        </article>
+                    </div>
+            </section>
+    </div>
+
+    </div>
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
